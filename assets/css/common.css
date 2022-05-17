@@ -1,0 +1,235 @@
+/* @font-face {
+    font-family: 'regular';
+    src: url("../fonts/Montserrat-Medium.otf");
+}
+@font-face {
+    font-family: 'small';
+    src: url("../fonts/OpenSansHebrew-Light.ttf");
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html{
+    color: #010101;
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Poppins' !important;
+    background-color: #e6e6e6 !important;
+    color: #010101 !important;
+    font-size: 14px !important; 
+}
+a:hover{
+    text-decoration: none ;
+}
+pre, p{
+    margin:0px;
+    color: #010101;
+}
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 17px;
+}
+h1,h2,h3,h4, h5,h6{
+    margin: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0px;
+}
+textarea {
+    resize: none !important;
+}
+button, select{
+    cursor: pointer;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+    outline: none;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+img{
+	width:100%;
+	display:block;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    transition: .3s all ease;
+}
+
+
+._text_center{
+    text-align: center;
+}
+._text_right{
+    text-align: right;
+}
+._text_left{
+    text-align: left;
+}
+
+/* Display */
+._dis_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+/* Text Overflow */
+._1text_overflow{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+._2text_overflow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+}
+._3text_overflow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+}
+._4text_overflow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+}
+._5text_overflow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+}
+._text_overflow_height{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+._overflow_hidden{
+    overflow: hidden;
+}
+
+/*Display*/
+._flex_row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+._dis_flex{
+	display:flex;
+}
+._flex_space{
+	flex:1 1;
+}
+._flex_auto{
+    flex: 0 0 auto;
+}
+
+/*BUTTONS*/
+._btn_sm {
+    height: 35px !important;
+    line-height: 35px !important;
+}
+._btn_large {
+    line-height: 50px !important;
+    height: 50px !important;
+    padding: 0px 20px !important;
+    font-size: 16px !important;
+}
+._1button {
+    display: flex;
+    align-items: center;
+}
+._1button button:last-child{
+    margin-left: 10px;
+}
+._1btn {
+    border: none;
+    padding: 0 30px;
+    margin: 0;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    transition: .2s all ease;
+    font-size: 14px;
+    background-color: #407ec9;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+}
+._1btn:hover {
+    background: #3168ab;
+    color: #fff;
+}
+._2btn {
+    border: none;
+    padding: 0 14px;
+    margin: 0;
+    color: #fff;
+    height: 40px;
+    transition: .2s all ease;
+    font-size: 14px;
+    background-image: var(--bg-linear-primary-90);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-weight: 500;
+    background-color: var(--bg-primary);
+}
+._2btn:hover {
+    background: #0a4ae6;
+    color: #fff;
+}
+._btn_long{
+    width: 100%;
+}
+._1main_content{
+    padding-top: 0px;
+    position: relative;
+}
+._2main_content{
+    padding-top: 20px;
+    position: relative;
+}

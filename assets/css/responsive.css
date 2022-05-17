@@ -1,0 +1,150 @@
+/* Mobile */
+@media only screen and (max-width: 765px) {
+._banner_grid {
+    grid-template-areas:
+        'a a a a a a a a'
+        'b b b b c c c c';
+}
+._cat_grid {
+    grid-gap: 14px;
+    grid-template-columns: 1fr 1fr;
+}
+.grid {
+    grid-template-columns: 1fr;
+}
+._new_pro_con .owl-prev {
+    left: -15px;
+}
+._new_pro_con .owl-next{
+    right: -15px;
+}
+._new_pro_con .owl-dots {
+    bottom: -62px;
+}
+._new_pro {
+    padding: 35px 0 80px;
+}
+._footer_colum {
+    flex: 00 0 100%;
+    max-width: 100%;
+    margin-bottom: 47px;
+}
+._footer_bottom_center {
+    flex: 0 0 100%;
+    padding: 25px 15px 27px;
+}
+._footer_bottom_left {
+    flex: 0 0 100%;
+    justify-content: center;
+}
+._footer_bottom_right {
+    flex: 0 0 100%;
+}
+._footer_bottom_payment img {
+    width: 100%;
+    height: auto;
+}
+._menu_header_right {
+    display: none;
+}
+._menu_header_mob_btn {
+    display: block;
+}
+._menu_header_who_text {
+    font-size: 12px;
+}
+._menu_header_retail_text {
+    font-size: 12px;
+}
+._menu_head_mob {
+    display: block;
+}
+._menu_list {
+    display: none;
+}
+._menu_search {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+._menu_mob_btn{
+    display: block;
+}
+._menu_mob{
+    display: block;
+}
+}
+/* Mobile */
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+._banner_grid {
+    grid-template-areas:
+        'a a a a a a a a'
+        'b b b b c c c c';
+}
+._menu_mob{
+    display: block;
+}
+._menu_mob_btn {
+    flex: 0 0 auto;
+    order: 1;
+}
+._menu_logo {
+    flex: 1 1;
+    border: 0px solid #d4d4d4;
+    background: transparent;
+}
+._menu_head_mob {
+    display: block;
+}
+._menu_mob_btn {
+    flex: 0 0 auto;
+    order: 1;
+    margin-left: 12px;
+    display: block;
+}
+._menu_list {
+    display: none;
+}
+._menu_header_mob_btn {
+    display: block;
+}
+._menu_header_right {
+    display: none;
+}
+._cat_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+._footer_colum {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+._footer_colum._footer_colum_search{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+._footer_serach {
+    max-width: 300px;
+    margin: 0 auto;
+}
+._footer_colum_search ._footer_title{
+    text-align: center;
+}
+._footer_bottom_right {
+    flex: 0 0 100%;
+    margin: 23px 0 0;
+}   
+._footer_bottom_payment img {
+    margin: 0 auto;
+}
+}
+/* Ipad */
+
+/* Desktop 1366 */
+@media only screen and (max-width: 1500px) {
+
+    
+}
